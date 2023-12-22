@@ -20,4 +20,5 @@ def get_weather():
     return f"data: {data}"
 
 if __name__ == "__main__":
+    
     app.run(debug=True)
